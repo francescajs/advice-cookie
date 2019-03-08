@@ -1,33 +1,97 @@
-.App {
+.view {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2D5C7F;
+  padding-top: 5%
+}
+
+.headline {
+  width: 100vw;
+  height: 55px;
+  background-color: #984A59;
+  opacity: 0.95;
+}
+
+.title {
+  color: white;
   text-align: center;
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 20pt;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content{
+  margin-top: 10%;
   display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.search-section {
   flex-direction: column;
-  align-items: center;
+  display: flex;
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 15pt;
+  align-content: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.directions {
+  align-content: center;
+  justify-content: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.search-box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: none;
+  width: 200px;
+  height: 25px;
+  border-top: 3px solid #984A59;
+  border-bottom: 3px solid #984A59;
+  border-left: 3px solid #984A59;
+  border-right: 3px solid #984A59;
+  box-shadow: 1.5px 1.5px 1.5px darkslategrey;
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 15pt;
+  font-weight: bold;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.advice-slip {
+  align-content: center;
+  justify-content: center;
+}
+
+.outer-box {
+  width: 580px;
+  height: 280px;
+  border-radius: 10px;
+  padding: 40px;
+  align-content: center;
+  justify-content: center;
+  background-color: #FFF1A8;
+  z-index: 0;
+}
+
+.inner-box {
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #984A59;
+  padding: 40px;
+  align-content: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.advice {
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 25pt;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  z-index: 2;
 }
