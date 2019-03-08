@@ -16,8 +16,10 @@ class App extends Component {
 
   lessRandomAdvice(slips, numslips) {
     let index = Math.floor(Math.random() * numslips)
+    const string = slips[index].advice;
+    
     this.setState({
-      advice: slips[index].advice
+      advice: string
     });
   }
 
