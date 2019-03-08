@@ -37,7 +37,7 @@ class App extends Component {
     const json2 = await random.json();
     this.setState({
       advice: json2.slip.advice
-    })
+    });
   }
 
   handleInput(event) {
@@ -56,7 +56,7 @@ class App extends Component {
         <div className="headline">
           <div className="title"> 
             <h2>Advice Cookie!</h2>
-            </div>
+          </div>
         </div>
 
         <div className="content">
