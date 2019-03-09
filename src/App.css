@@ -19,7 +19,7 @@
   color: white;
   text-align: center;
   font-family: 'Waiting for the Sunrise', cursive;
-  font-size: 100%;
+  font-size: 160%;
   box-sizing: box;
 }
 
@@ -96,7 +96,7 @@
 .advice {
   padding: 2.5% 3%;
   font-family: 'Waiting for the Sunrise', cursive;
-  font-size: 120%;
+  font-size: 140%;
   font-weight: 500;
   color: white;
   text-align: center;
